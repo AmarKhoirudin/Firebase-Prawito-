@@ -1,0 +1,15 @@
+.chat {
+  text-align: center;
+  border-radius: 8px;
+  height: 60px;
+  width: 20%;
+  background: rgba(49, 49, 177, 0.657);
+  transition: all ease 0.45s;
+  margin: 20px 5%;
+  &:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+    transform: translateY(-20px);
+  }
+}
